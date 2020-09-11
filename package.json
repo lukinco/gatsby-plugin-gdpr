@@ -2,6 +2,7 @@
   "name": "gatsby-plugin-gdpr",
   "version": "0.1.0",
   "main": "index.js",
+  "description": "Gatsby plugin to add google tag manager GDPR form to your site using idb-keyval.",
   "license": "MIT",
   "keywords": [
     "gatsby",
@@ -18,7 +19,7 @@
     "@babel/runtime": "7.11.2",
     "idb-keyval": "3.2.0",
     "react-gtm-module": "2.0.11",
-    "sparkles": "^1.0.1"
+    "sparkles": "1.0.1"
   },
   "devDependencies": {
     "@babel/cli": "7.10.5",
