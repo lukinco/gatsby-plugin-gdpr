@@ -11,7 +11,8 @@
   ],
   "scripts": {
     "build": "babel src --out-dir .",
-    "prepare": "cross-env NODE_ENV=production npm run build"
+    "prepare": "cross-env NODE_ENV=production npm run build",
+    "postversion": "npm publish"
   },
   "dependencies": {
     "@babel/runtime": "7.11.2",
