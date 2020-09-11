@@ -1,0 +1,41 @@
+{
+  "name": "gatsby-plugin-gdpr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "google tagmanager",
+    "gtag"
+  ],
+  "scripts": {
+    "build": "babel src --out-dir .",
+    "prepare": "cross-env NODE_ENV=production npm run build"
+  },
+  "dependencies": {
+    "@babel/runtime": "7.11.2",
+    "idb-keyval": "3.2.0",
+    "react-gtm-module": "2.0.11",
+    "sparkles": "^1.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.10.5",
+    "@babel/core": "7.11.1",
+    "babel-preset-gatsby-package": "0.5.2",
+    "cross-env": "7.0.2",
+    "eslint": "7.8.1",
+    "eslint-config-standard": "14.1.1",
+    "eslint-plugin-import": "2.22.0",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-only-warn": "1.0.2",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-react": "7.20.6",
+    "eslint-plugin-standard": "4.0.1"
+  },
+  "peerDependencies": {
+    "gatsby": "2.24.57",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  }
+}
